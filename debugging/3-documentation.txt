@@ -1,0 +1,16 @@
+can you write documentation for this function?
+
+def calculate_grade(mark):
+    if mark < 0 or mark > 100:
+        raise ValueError("Mark must be in the range 0-100")
+    
+    if mark < 50:
+        return 'Not yet successful'
+    elif mark <= 60:
+        return 'Pass'
+    elif mark <= 75:
+        return 'Credit'
+    elif mark <= 85:
+        return 'Distinction'
+    else:
+        return 'High Distinction'

@@ -1,0 +1,5 @@
+Looks good, now can you please refactor it based on these points?
+
+- Code follows the python PEP 8 style guide.
+- The code snippet is wrapped in a function.
+- The code snipped raises a ValueError if the mark is outside of the range 0-100
